@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+:root{
+    font-size: 25px;
+}
+
+body {
+    background-image: url('https://vignette.wikia.nocookie.net/spongebob/images/f/f2/Bottle_Burglars_001.png/revision/latest?cb=20180414141732'); /* Replace with the actual path to your image */
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    height: auto; /* Set the height to fill the viewport */
+    margin: 0; /* Remove default body margin */
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 3vh;
+    opacity: 0.85;
+    color: white;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 2vh;
+    gap: 2vw;
+    opacity: 0.85;
+}
+
+.navigation-button{
+    font-size: 1rem;
+    border: none;
+    padding: 0.5vh;
+    color: white;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.navigation-button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.button-selected{
+    border-bottom: 2px solid white;
+}
+
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-body-container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+
+    background-color: black;
+    opacity: 0.85;
+    padding: 7vh;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+}
+
+.menu-container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.home-image{
+    height: 60vh;
+    width: auto;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.menu-item-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+
+.menu-item{
+    border: 2px solid white;
+    height: auto;
+    padding: 2vh;
+    width: 70%;
+}
